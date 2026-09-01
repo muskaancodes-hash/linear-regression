@@ -12,3 +12,5 @@ we create a Linear Regression model using Scikit-learn. The model is trained usi
 we use the trained Linear Regression model to predict house prices for the testing data. The model uses the selected features from X_test and generates predicted prices, which will later be compared with the actual prices to evaluate the model.
 
 we evaluate the performance of the Linear Regression model using three evaluation metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE), and R² Score. MAE and MSE measure the prediction error, while the R² Score shows how well the model explains the variation in house prices.
+
+we display the coefficients of the Linear Regression model. Each coefficient represents how a particular feature affects the predicted house price while keeping the other features constant. We also display the intercept of the model.
