@@ -6,3 +6,19 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+# Part 2: Load and Explore the Dataset
+
+# Load the dataset
+df = pd.read_csv("Housing.csv")
+
+# Display the first 5 rows
+print("First 5 rows of the dataset:")
+print(df.head())
+
+# Display dataset information
+print("\nDataset Information:")
+print(df.info())
+
+# Check for missing values
+print("\nMissing Values:")
+print(df.isnull().sum())
