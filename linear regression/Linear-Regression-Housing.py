@@ -22,3 +22,18 @@ print(df.info())
 # Check for missing values
 print("\nMissing Values:")
 print(df.isnull().sum())
+# Part 3: Data Preprocessing & Feature Selection
+
+# Select input features
+X = df[["area", "bedrooms", "bathrooms", "stories", "parking"]]
+
+# Select target variable
+y = df["price"]
+
+# Display the selected features
+print("Input Features:")
+print(X.head())
+
+# Display the target variable
+print("\nTarget Variable:")
+print(y.head())
