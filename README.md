@@ -8,3 +8,5 @@ we select the input features and target variable for the Linear Regression model
  we divide the dataset into training and testing sets. The training data is used to train the Linear Regression model, while the testing data is used to evaluate how well the model performs on unseen data. We use 80% of the data for training and 20% for testing.
 
 we create a Linear Regression model using Scikit-learn. The model is trained using the training data so that it can learn the relationship between the selected housing features and the house price.
+
+we use the trained Linear Regression model to predict house prices for the testing data. The model uses the selected features from X_test and generates predicted prices, which will later be compared with the actual prices to evaluate the model.
