@@ -10,3 +10,5 @@ we select the input features and target variable for the Linear Regression model
 we create a Linear Regression model using Scikit-learn. The model is trained using the training data so that it can learn the relationship between the selected housing features and the house price.
 
 we use the trained Linear Regression model to predict house prices for the testing data. The model uses the selected features from X_test and generates predicted prices, which will later be compared with the actual prices to evaluate the model.
+
+we evaluate the performance of the Linear Regression model using three evaluation metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE), and R² Score. MAE and MSE measure the prediction error, while the R² Score shows how well the model explains the variation in house prices.
