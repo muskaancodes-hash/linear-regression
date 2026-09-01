@@ -13,7 +13,8 @@ we use the trained Linear Regression model to predict house prices for the testi
 
 we evaluate the performance of the Linear Regression model using three evaluation metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE), and R² Score. MAE and MSE measure the prediction error, while the R² Score shows how well the model explains the variation in house prices.
 
-we display the coefficients of the Linear Regression model. Each coefficient represents how a particular feature affects the predicted house price while keeping the other features constant. We also display the intercept of the model.
+we display the coefficients of the Linear Regression model. Each coefficient represents how a particular feature affects the predicted house price while keeping
+the other features constant. We also display the intercept of the model.
 
  we visualize the actual and predicted house prices using a scatter plot. This helps us compare the model's predictions with the actual values and understand how well the Linear Regression model performs.
  
