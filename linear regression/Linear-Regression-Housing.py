@@ -37,3 +37,14 @@ print(X.head())
 # Display the target variable
 print("\nTarget Variable:")
 print(y.head())
+# Part 4: Train-Test Split
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X,
+    y,
+    test_size=0.2,
+    random_state=42
+)
+
+print("Training data size:", X_train.shape)
+print("Testing data size:", X_test.shape)
