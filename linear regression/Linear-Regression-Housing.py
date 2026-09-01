@@ -96,3 +96,17 @@ plt.ylabel("Predicted Price")
 plt.title("Actual vs Predicted House Prices")
 
 plt.show()
+# Part 10: Final Model Summary
+
+print("\n===== FINAL MODEL SUMMARY =====")
+
+print("Number of Features:", X.shape[1])
+print("Training Samples:", X_train.shape[0])
+print("Testing Samples:", X_test.shape[0])
+
+print("\nModel Performance:")
+print("MAE:", mae)
+print("MSE:", mse)
+print("R² Score:", r2)
+
+print("\nLinear Regression model completed successfully!")
