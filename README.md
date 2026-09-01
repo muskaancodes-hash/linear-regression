@@ -6,3 +6,5 @@ we load the Housing Price Prediction dataset using Pandas and explore its basic 
 we select the input features and target variable for the Linear Regression model. The selected features are area, bedrooms, bathrooms, stories, and parking. The target variable is price, which the model will predict
 
  we divide the dataset into training and testing sets. The training data is used to train the Linear Regression model, while the testing data is used to evaluate how well the model performs on unseen data. We use 80% of the data for training and 20% for testing.
+
+we create a Linear Regression model using Scikit-learn. The model is trained using the training data so that it can learn the relationship between the selected housing features and the house price.
