@@ -48,3 +48,12 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 print("Training data size:", X_train.shape)
 print("Testing data size:", X_test.shape)
+# Part 5: Create and Train Linear Regression Model
+
+# Create the Linear Regression model
+model = LinearRegression()
+
+# Train the model
+model.fit(X_train, y_train)
+
+print("Linear Regression model trained successfully!")
