@@ -77,3 +77,13 @@ print("Model Evaluation:")
 print("MAE:", mae)
 print("MSE:", mse)
 print("R² Score:", r2)
+# Part 8: Coefficients and Interpretation
+
+# Display coefficients for each feature
+print("Feature Coefficients:")
+
+for feature, coefficient in zip(X.columns, model.coef_):
+    print(feature, ":", coefficient)
+
+# Display intercept
+print("\nIntercept:", model.intercept_)
