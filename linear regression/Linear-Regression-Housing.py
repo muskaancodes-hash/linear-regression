@@ -57,3 +57,11 @@ model = LinearRegression()
 model.fit(X_train, y_train)
 
 print("Linear Regression model trained successfully!")
+# Part 6: Make Predictions
+
+# Predict house prices using the test data
+y_pred = model.predict(X_test)
+
+# Display the first 5 predicted prices
+print("Predicted House Prices:")
+print(y_pred[:5])
