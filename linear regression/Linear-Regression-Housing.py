@@ -65,3 +65,15 @@ y_pred = model.predict(X_test)
 # Display the first 5 predicted prices
 print("Predicted House Prices:")
 print(y_pred[:5])
+# Part 7: Model Evaluation
+
+# Calculate evaluation metrics
+mae = mean_absolute_error(y_test, y_pred)
+mse = mean_squared_error(y_test, y_pred)
+r2 = r2_score(y_test, y_pred)
+
+# Display results
+print("Model Evaluation:")
+print("MAE:", mae)
+print("MSE:", mse)
+print("R² Score:", r2)
